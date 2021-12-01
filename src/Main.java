@@ -45,8 +45,8 @@ public class Main {
 
         ChessBoard board = buildBoard();
         Scanner scanner = new Scanner(System.in);
-        System.out.println("exit - выход, replay - перезапуск, castling0 и castling7 - для рокировки по соответсвующей линии, move 1 1 2 3 - для передвижения фигуры с позиции 1 1 на 2 3(поле это двумерный массив от 0 до 7)");
-        System.out.println("Проверьте могут ли фигуры ходить друг скозь друга, корректно ли съедают друг друга, можно ли поставить шах и сделть рокировку?");
+        System.out.println("exit - выход, replay - перезапуск, castling0 и castling7 - для рокировки по соответствующей линии, move 1 1 2 3 - для передвижения фигуры с позиции 1 1 на 2 3(поле это двумерный массив от 0 до 7)");
+        System.out.println("Проверьте могут ли фигуры ходить друг сквозь друга, корректно ли съедают друг друга, можно ли поставить шах и сделать рокировку?");
         System.out.println();
         board.printBoard();
         while (true) {
